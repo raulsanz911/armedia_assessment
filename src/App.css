@@ -1,0 +1,67 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 100vw;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.output-container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.group {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 15%;
+}
+
+.group h3 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.result {
+  margin-bottom: 10px;
+}
+
+.result-label {
+  font-weight: bold;
+}
+
+.result-value {
+  color: #28a745;
+}
+
+.group-summary {
+  font-style: italic;
+  color: #555;
+}
+
+.errors {
+  border: 1px solid #f8d7da;
+  background-color: #f8d7da;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.error {
+  color: #721c24;
+}
